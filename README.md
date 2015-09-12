@@ -6,5 +6,5 @@ Fall 2015
 
 By Nuha Albadi
 
-[click here](https://nuhaalbadi.github.io/Presentation1/) to view the presentation on-line.
+[Click here](https://nuhaalbadi.github.io/Presentation1/) to view the presentation on-line.
 
