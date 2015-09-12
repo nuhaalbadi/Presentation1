@@ -110,24 +110,35 @@ button {
 
 #content { float: right; width: 510px; margin-top: 30px; margin-left: 2px; }
 
-#content a { color:#D01A71; font-weight: bold;}
+#content a { color:#B80000  ; font-weight: bold;}
 
 #content a:hover { 
  color: #fff; 
- background: #D01A71; 
+ background: #FF0000; 
  font-weight: bold;}
  
 #content p {line-height: 1.4em; font-size: 0.7em; margin-bottom: 20px; color: #f4f4f4;}
 
  
 #content h3 {
-text-indent: 20px;
-color: #999;
+text-indent: 0px;
+color:#F80000; 
 letter-spacing: -0.1em;
 margin-bottom: 4px;
 }
 
+
 #content h3:hover { color: #fff;}
+
+#content h4 {
+letter-spacing: -0.1em;
+line-height: 1.4em; font-size: 0.9em; 
+text-indent: 15px;
+color: #999;
+margin-bottom: 4px;
+}
+
+#content h4:hover { color: #fff;}
 
 	#content .code{
 	  color: #444;
@@ -155,7 +166,7 @@ margin-bottom: 4px;
 #footer {
  text-align: center;
  color: #666;
- margin-top: 30px;
+ margin-top: 120px;
  font-size: 0.7em;
  }
  
