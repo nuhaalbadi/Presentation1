@@ -44,6 +44,7 @@ button {
 .hidden { text-indent: -9000px;}
 .br { clear: both;}
 .pink { color: #D01A71;}
+.red { color: #FF0000;}
 .small { font-size: x-small;}
 .large { font-size: xx-large;}
 .right { float: right;}
