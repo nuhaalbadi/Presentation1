@@ -28,8 +28,9 @@
 
  <div id="content">
    <h3 id="Intro">› Introduction</h3>
-   <p>eXtreme Programming (XP) is a software development life cycle and one of the most well-known agile processes. Its main focus is on providing the customer with a high quality software in the shortest time possible. Instead of delivering one final version of the software, XP delivers the software in pieces as needed by the customer allowing for more interaction with the customer and more tolerance to change. </p>
-   <p>As shown in lecture 7, the name "Extreme" comes from the fact that XP takes certain software development practices and sets them to extreme levels. For example, integration testing in XP is done multiple  times a day. When a change is made, all tests should be run again, extreme testing. </p>
+   <p>eXtreme Programming (XP) is a software development life cycle and one of the most well-known agile processes. It is based on a number of values, activities, rules, and practices which will be discussed  in following sections. Its main focus is on providing the customer with a high quality software in the shortest time possible. Instead of delivering one final version of the software, XP delivers the software in pieces as needed by the customer allowing for more interaction with the customer and more tolerance to change. </p>
+   <p>In fact, XP is not only tolerant to change, but also it advocates the concept of "Embracing Change". In XP, change is always a good thing. Change inevitable, customer requirements get clearer as we develop the system. It is hard to define the system completely from the start. Therefore, XP tries to reduce the cost of change as possible by incorporating simple well written designs/code and by anticipating change and designing for it in all its practices. </p>
+   <p>As shown in lecture 7, the name "Extreme" comes from the fact that XP takes certain software development practices and sets them to extreme levels. For example, testing in XP is done multiple  times a day. When a change is made, all tests should be run again, extreme testing. </p>
    <h3 id="History">› History</h3>
    <p>In March, 1969 XP was first developed and used by Kent Beck who was brought to work on a project at Daimler Chrysler. He was trying to find better ways to enhance the software development process. His ideas and methodologies were proven to be successful which later became known as "Extreme Programming"</p>
    <p>A <a href="http://c2.com/xp/HistoryOfExtremeProgramming.html"> short history </a> of XP is best summarized  as </p>
@@ -42,14 +43,19 @@
    <h3 id="Concept">› Concept</h3>
    <p>XP is built upon a number of activities, values, and rules, each is discussed in detail below. </p>
    <h4 id="activities">› XP Activities</h4>
-   <p>XP has four main activities that are implemented during the software development life cycle. </p>
-   <p><strong>1. Coding</strong></p>
-   <p>coding </p>
-   <p><strong>2. Testing</strong></p>
-   <p>testing </p>
-   <p><strong> 3.&nbsp;Listening</strong></p>
-   <p>listening </p>
-   <p><strong>4.&nbsp;Designing</strong></p>
+   <p>Planning is the first activity (phase) in the XP life cycle. Then, each iteration consists of four main activities: coding, testing, designing, and listening. </p>
+   <p><strong>Planning</strong>&nbsp;</p>
+   <p>The XP development life cycle starts by meeting with customers and developing "user stories", each user story describes a requirement of the system. These user stories are get prioritized by the customers which leads to developing a <a href="http://www.extremeprogramming.org/rules/commit.html">release plan</a>. Then, the development team distribute these user stories into iterations. Each iteration will consist of user stories that sums up to the "<a href="http://www.extremeprogramming.org/rules/velocity.html">project velocity</a>", which is a mean of measuring how much work is done in each iteration. Work load for the coming iteration gets adjusted according to the most recent project velocity. No detailed requirements is done in this phase since requirements get clearer as we develop the software and get constant feedback from customers.</p>
+   <p><strong>Coding</strong></p>
+   <p>In XP, how much of the system is up and running in the customer’s site defines how much progress has been achieved. Therefore, coding is one of the most important phases in XP as it allows for producing something that the customer can actually use and give feedback on. For that, developers are discouraged to waist their time with documentations and other software artifacts as these will extremely slow the development time and the customers would have to wait a long time before they actually get something. </p>
+   <p><strong>Testing</strong></p>
+   <p>In XP, testing is an integral part of the development process. Testing is done as the code is being developed. The two main types of testing are</p>
+   <p>- Unit testing: In order for a code to be released, it must pass all its unit tests. In, XP <a href="http://www.extremeprogramming.org/rules/unittests.html">unit tests </a>should be automated and developed for each class, function, etc. in the code. Whenever a change is made in the code, all unit tests should be run again using an automated test framework. Developers write these tests with the intern to "break" their code in order to find as much bugs as possible. </p>
+   <p>- Acceptance testing: At each iteration, <a href="http://www.extremeprogramming.org/rules/functionaltests.html">acceptance tests</a> are generated for each of the selected user stories according to the customer specifications. At the end of each iteration, the customer is provided with the results of these tests and decides which tests are failed and which are passed. Acceptance tests insure that the system implements exactly what the customer wants. </p>
+   
+   <p><strong>Listening</strong></p>
+   <p>Getting feedback from customers is a key activity in XP. XP encourages developers to be good listeners for customers. Getting feedback and welcoming changes helps developing a system that best match customer’s specifications. Feedback is not done only between the development team and customers; it is also encouraged between the development team themselves. A developer should give/seek feedback to/from other co-developers. Communication and feedback are highly valued in XP as you will see in the following section. </p>
+   <p><strong>Designing</strong></p>
    <p>desingning</p>
    <h4 id="values">› XP Values</h4>
 <p><strong>1. Simplicity </strong></p>
