@@ -69,11 +69,6 @@ button {
  font-size: 1.6em;
  letter-spacing: -0.1em;}
  
-#search {
- margin-top: 30px;
- float: right;}
- 
-#search button { margin-left: 5px; padding: 0 2px 2px 2px;}
 
 /***left Side Bar***/
 
@@ -98,7 +93,7 @@ button {
 #navlist li a:hover {
  color: #f4f4f4;
  background: #333;
- border-right: 4px solid #D01A71;}
+ border-right: 4px solid #B80000;}
  
 #navlist li .active {
  color: #999;
