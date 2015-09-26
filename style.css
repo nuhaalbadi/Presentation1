@@ -104,6 +104,10 @@ button {
  color: #999;
  background: #333;
  border-right: 4px solid #444;}
+ 
+ ul, ol {   
+    margin:17px;
+	margin-bottom: 4px;}
 
 
 /***Content***/
@@ -132,14 +136,23 @@ margin-bottom: 4px;
 
 #content h4 {
 letter-spacing: -0.1em;
-line-height: 1.4em; font-size: 0.9em; 
-text-indent: 15px;
+line-height: 1.4em; font-size: 0.95em; 
+text-indent: 0px;
 color: #999;
 margin-bottom: 4px;
 }
 
 #content h4:hover { color: #fff;}
 
+#content h5 {
+letter-spacing: -0.1em;
+line-height: 1.4em; font-size: 0.8em; 
+text-indent: 0px;
+color: #F8F8F8;
+margin-bottom: 4px;
+}
+
+#content h5:hover { color: #999;}
 	#content .code{
 	  color: #444;
 	  background: #F4f4f4 url(codenums.png) repeat-y;
