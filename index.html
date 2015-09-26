@@ -44,44 +44,131 @@
    <p>XP is built upon a number of activities, values, and rules, each is discussed in detail below. </p>
    <h4 id="activities">› XP Activities</h4>
    <p>Planning is the first activity (phase) in the XP life cycle. Then, each iteration consists of four main activities: coding, testing, designing, and listening. </p>
-   <p><strong>Planning</strong>&nbsp;</p>
+   <ul>
+     <li>
+       <h5><strong>Planning</strong>&nbsp;</h5>
+     </li>
+   </ul>
    <p>The XP development life cycle starts by meeting with customers and developing "user stories", each user story describes a requirement of the system. These user stories are get prioritized by the customers which leads to developing a <a href="http://www.extremeprogramming.org/rules/commit.html">release plan</a>. Then, the development team distribute these user stories into iterations. Each iteration will consist of user stories that sums up to the "<a href="http://www.extremeprogramming.org/rules/velocity.html">project velocity</a>", which is a mean of measuring how much work is done in each iteration. Work load for the coming iteration gets adjusted according to the most recent project velocity. No detailed requirements is done in this phase since requirements get clearer as we develop the software and get constant feedback from customers.</p>
-   <p><strong>Coding</strong></p>
+   <ul>
+     <li>
+       <h5><strong>Designing </strong></h5>
+     </li>
+   </ul>
+   <p>The designing process in XP should follow the following guidelines and principles: </p>
+   <p>- Always seek <a href="http://www.extremeprogramming.org/rules/simple.html">simplicity</a> in design. Simple design is faster and easier to implement and easier to change. </p>
+   <p>- Use "<a href="http://www.extremeprogramming.org/rules/metaphor.html">system metaphor</a>" when naming system classes, objects, etc. This helps maintain consistency and compatibility across the system. It also facilitates with the overall understanding of the system. </p>
+   <p>- Use <a href="http://www.extremeprogramming.org/rules/crccards.html">Class Responsibilities and Collaboration</a> (CRC) cards to allow for more cooperation in the design process. All members can be part of the design process by sharing design ideas on such cards. CRC cards implements the object methodology in design as opposed to the traditional procedural one. </p>
+   <p>- Create what is called "<a href="http://www.extremeprogramming.org/rules/spike.html">spike solutions</a>" , these are simple programs that address complicated problems without worrying about any other aspect of the system. This technique helps reduce the risk of of some technical problems. It also helps with giving better estimates for user's story. </p>
+   <ul>
+     <li>
+       <h5><strong>Coding</strong></h5>
+     </li>
+   </ul>
    <p>In XP, how much of the system is up and running in the customer’s site defines how much progress has been achieved. Therefore, coding is one of the most important phases in XP as it allows for producing something that the customer can actually use and give feedback on. For that, developers are discouraged to waist their time with documentations and other software artifacts as these will extremely slow the development time and the customers would have to wait a long time before they actually get something. </p>
-   <p><strong>Testing</strong></p>
+   <ul>
+     <li>
+       <h5><strong>Testing</strong></h5>
+     </li>
+   </ul>
    <p>In XP, testing is an integral part of the development process. Testing is done as the code is being developed. The two main types of testing are</p>
    <p>- Unit testing: In order for a code to be released, it must pass all its unit tests. In, XP <a href="http://www.extremeprogramming.org/rules/unittests.html">unit tests </a>should be automated and developed for each class, function, etc. in the code. Whenever a change is made in the code, all unit tests should be run again using an automated test framework. Developers write these tests with the intern to "break" their code in order to find as much bugs as possible. </p>
    <p>- Acceptance testing: At each iteration, <a href="http://www.extremeprogramming.org/rules/functionaltests.html">acceptance tests</a> are generated for each of the selected user stories according to the customer specifications. At the end of each iteration, the customer is provided with the results of these tests and decides which tests are failed and which are passed. Acceptance tests insure that the system implements exactly what the customer wants. </p>
    
-   <p><strong>Listening</strong></p>
+   <ul>
+     <li>
+       <h5><strong>Listening</strong></h5>
+     </li>
+   </ul>
    <p>Getting feedback from customers is a key activity in XP. XP encourages developers to be good listeners for customers. Getting feedback and welcoming changes helps developing a system that best match customer’s specifications. Feedback is not done only between the development team and customers; it is also encouraged between the development team themselves. A developer should give/seek feedback to/from other co-developers. Communication and feedback are highly valued in XP as you will see in the following section. </p>
-   <p><strong>Designing</strong></p>
-   <p>The designing process in XP should follow the following guidelines principles: </p>
-   <p>- Always seek <a href="http://www.extremeprogramming.org/rules/simple.html">simplicity</a> in design. Simple design is faster and easier to implement and easier to change. </p>
-   <p>- Use "<a href="http://www.extremeprogramming.org/rules/metaphor.html">system metaphor</a>" when naming system classes, objects, etc. This helps maintain  consistency  and compatibility  across the system. It also facilitates with the overall understanding of the system. </p>
-   <p>- Use <a href="http://www.extremeprogramming.org/rules/crccards.html">Class Responsibilities and Collaboration </a> (CRC) cards to allow for more cooperation in the design process. All members can be part of the design process by sharing design ideas on such cards. CRC cards implements the object methodology in design as opposed to the traditional procedural one. </p>
-   <p>- Create what is called "<a href="http://www.extremeprogramming.org/rules/spike.html">spike solutions</a>" , these are simple programs that address complicated  problems without worrying  about any other aspect of the system. This technique helps reduce the risk of of some technical  problems. It also helps with giving better estimates for user's story. </p>
-   <h4 id="values">› XP Values</h4>
-<p><strong>1. Simplicity </strong></p>
+<h4 id="values">› XP Values</h4>
+<ul>
+  <li>
+    <h5><strong>Simplicity </strong></h5>
+  </li>
+</ul>
 <p>Team members should always seek simplicity, but efficiency, in their all practices. In XP, they only worry about things that are needed, they should not waist their time worrying about things they might need. This helps the team stay on track and deliver faster. </p>
 <p>Kent<em> says in Extreme Programming Explained</em></p>
 <p> <blockquote>"XP is making a bet. It is betting that it is better to do a simple thing today and pay a little more tomorrow to change it if it needs it, than to do a more complicated thing today that may never be used anyway." </blockquote></p>
-<p><strong>2. Communication </strong></p>
+<ul>
+  <li>
+    <h5><strong>Communication </strong></h5>
+  </li>
+</ul>
 <p>Team members should continuously communicate with each other and with costumers. Face to face communication is a key thing in XP. Everyone is involved in the development process most importantly customers. </p>
-<p><strong>3. Feedback</strong></p>
+<ul>
+  <li>
+    <h5><strong>Feedback</strong></h5>
+  </li>
+</ul>
 <p>In XP you should always get feedback from customers and be ready to change frequently. This is very essential in XP since you deliver a working software to the customer at the end of every iteration. The customers actually use the software and give back feedback that it is extremely helpful for next iterations. </p>
 <p>XP exempts you from waiting until the end of the software development process to see whether or not the customer actually likes your software. In XP this is done starting from the early stages of the software development process. This means that you should expect change and embrace it. In XP change is easy to be done because the whole software is implemented in a way that allow changes to be made with the lowest cost possible. &nbsp; </p>
-<p><strong>4. Courage </strong></p>
+<ul>
+  <li>
+    <h5><strong>Courage </strong></h5>
+  </li>
+</ul>
 <p>In XP you should be courageous enough to simply "throw away" any code that you think is not good enough. Do not worry about the time you spent writing this code because simply you can start fresh tomorrow and write a better one. The "throwaway" approach in XP applies also to design. Do not worry about coming up with right design from the first time, just try whatever is in your head and see where that gets you. </p>
 <p>Kent says in <em>Extreme Programming Explained </em></p>
 
 <p><blockquote>"Maybe you have three design alternatives. So, code a day's worth of each alternative, just to see how they feel. Toss the code and start over on the most promising design." </blockquote> </p>
-<p><strong>5. Respect </strong></p>
+<ul>
+  <li>
+    <h5><strong>Respect </strong></h5>
+  </li>
+</ul>
 <p>Respect is highly appreciated in XP. It should be practiced by every member of the team including customers and managers. No one should feel disrespected or discouraged. Respect helps keep the spirit of the team up and thus increasing their performance. </p>
-<h4 id="rules">› XP Rules</h4>
-   <p>&nbsp;</p>
-   <h3 id="Practices">› Practices</h3>
-   <p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id="Practices">› Practices</h3>
+<p>Although there are 28 practices in XP, they can be summed up into the following 12 key practices:</p>
+<ul>
+  <li>
+    <h5>The planning game (User stories)</h5>
+    </li>
+  <li>
+    <h5>Small releases </h5>
+    </li>
+  <li>
+    <h5>System metaphor</h5>
+    </li>
+  <li>
+    <h5>Coding Standard </h5>
+  </li>
+
+    <li>
+      <h5>Pair programming </h5>
+    </li>
+  <li>
+    <h5>Collective code ownership </h5>
+  </li>
+  <li>
+    <h5>Test-driven development </h5>
+  </li>
+  <li>
+    <h5>Continuous Integration </h5>
+  </li>
+  <li>
+    <h5>Simple Design </h5>
+  </li>
+  <li>
+    <h5>Refactoring </h5>
+  </li>
+  <li>
+    <h5>40-hour workweek </h5>
+  </li>
+  <li>
+    <h5>On-site Customer </h5>
+  </li>
+</ul>
+<blockquote>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</blockquote>
+<blockquote>
+  <p>&nbsp;</p>
+</blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
    <p>&nbsp;</p>
  </div>
 <div class="br"></div>
