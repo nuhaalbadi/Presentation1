@@ -77,8 +77,8 @@
    <p>In XP, testing is an integral part of the development process. Testing is done as the code is being developed. The two main types of testing are</p>
    <ul style="list-style-type:square">
    <li>
-   <p>Unit testing: In order for a code to be released, it must pass all its unit tests. In, XP <a href="http://www.extremeprogramming.org/rules/unittests.html">unit tests </a>should be automated and developed for each class, function, etc. in the code. Whenever a change is made in the code, all unit tests should be run again using an automated test framework. Developers write these tests with the intern to "break" their code in order to find as much bugs as possible. </p> </li>
-  <li> <p>Acceptance testing: At each iteration, <a href="http://www.extremeprogramming.org/rules/functionaltests.html">acceptance tests</a> are generated for each of the selected user stories according to the customer specifications. At the end of each iteration, the customer is provided with the results of these tests and decides which tests are failed and which are passed. Acceptance tests insure that the system implements exactly what the customer wants. </p> </li>
+   <p id="Unit testing">Unit testing: In order for a code to be released, it must pass all its unit tests. In, XP <a href="http://www.extremeprogramming.org/rules/unittests.html">unit tests </a>should be automated and developed for each class, function, etc. in the code. Whenever a change is made in the code, all unit tests should be run again using an automated test framework. Developers write these tests with the intern to "break" their code in order to find as much bugs as possible. </p> </li>
+  <li> <p id="Acceptance">Acceptance testing: At each iteration, <a href="http://www.extremeprogramming.org/rules/functionaltests.html">acceptance tests</a> are generated for each of the selected user stories according to the customer specifications. At the end of each iteration, the customer is provided with the results of these tests and decides which tests are failed and which are passed. Acceptance tests insure that the system implements exactly what the customer wants. </p> </li>
    </ul>
    </ul>
    
@@ -174,13 +174,24 @@
     <p>Code belongs to all developers, every one can modify, refactor, and add to code. By applying coding standard, collective code ownership becomes easier. Collective code ownership significantly reduces the risk of team turnover because all developers contribute in somehow to each part of the system. </p>
   </li>
   <li>
-    <h5>Test-Driven Development </h5>
+    <h5>Testing</h5>
+    <p>As mentioned earlier, there are two main categories of testing in XP, <a href="#Unit testing">unit testing</a> and <a href="#Acceptance">acceptance testing</a>. When a new feature is to be added to the system, you should write a unit test for it first, then write a code that passes that test. This methodology of testing is called <a href="http://c2.com/cgi/wiki?TestDrivenDevelopment">Test-Driven Development.</a> Writing tests first makes writing code easier because that way you know exactly what you need to do, write a code that passes the tests. Also, when you write tests first, you always know when you have done coding all functionalities, when all tests are passed. </p>
   </li>
   <li>
     <h5>Continuous Integration </h5>
+    <p>Whenever a software build is ready to be released, it needs to be integrated to the current system so that everyone works on the latest version of the system. This integration is done multiple times a day, current practices reduced this requirement to be once a week. Continuous integration has the advantage of discovering integration problems  early which leads to easier and less cost fix. </p>
   </li>
   <li>
     <h5>Simple Design </h5>
+    <p>There are three main rules that developers need to follow regarding the "simple design" practice:</p>
+    <ul style="list-style-type:square"><li>
+      <p>Choose the simplest design that works. </p>
+    </li>
+  <li>
+    <p>Do not design the same functionality twice, reuse your designs.</p></li>
+  <li>  <p>Do not waist your time designing functionalities that you do not need or ones that are scheduled for future iterations. </p>
+   </li></ul>
+    <p>As a rule, the simpler the design, the better the system, the more it becomes tolerant to change. </p>
   </li>
   <li>
     <h5>Refactoring </h5>
