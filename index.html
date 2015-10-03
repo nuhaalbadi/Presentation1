@@ -29,18 +29,17 @@
 
  <div id="content">
    <h3 id="Intro">› Introduction</h3>
-   <p>eXtreme Programming (XP) is a software development life cycle and one of the most well-known agile processes. It is based on a number of values, activities, rules, and practices which will be discussed  in following sections. Its main focus is on providing the customer with a high quality software in the shortest time possible. Instead of delivering one final version of the software, XP delivers the software in pieces as needed by the customer allowing for more interaction with the customer and more tolerance to change. </p>
-   <p>In fact, XP is not only tolerant to change, but also it advocates the concept of "Embracing Change". In XP, change is always a good thing. Change inevitable, customer requirements get clearer as we develop the system. It is hard to define the system completely from the start. Therefore, XP tries to reduce the cost of change as possible by incorporating simple well written designs/code and by anticipating change and designing for it in all its practices. </p>
-   <p>As shown in lecture 7, the name "Extreme" comes from the fact that XP takes certain software development practices and sets them to extreme levels. For example, testing in XP is done multiple  times a day. When a change is made, all tests should be run again, extreme testing. </p>
+   <p>eXtreme Programming (XP) is a software development life cycle and one of the most well-known agile processes. It is based on a number of values, activities, rules, and practices which will be discussed in following sections. Its main focus is on providing the customer with a high quality software in the shortest time possible. Instead of delivering one final version of the software at the end of the development process, XP delivers the software in pieces as needed by the customer allowing for more interaction with the customer and more tolerance to change. </p>
+   <p>In fact, XP is not only tolerant to change, but also advocates the concept of "Embracing Change." In XP, change is always a good thing. Change is inevitable, customer requirements get clearer as the system is being developed. It is hard to define the system completely from the start. Therefore, XP tries to reduce the cost of change as much as possible by incorporating simple well written designs/code and by anticipating change and designing for it in all its practices. </p>
+   <p>As shown in <a href="http://www.cs.colorado.edu/~kena/classes/5828/f15/lectures/07-introductiontoagilemetho.pdf">lecture 7</a>, the name "Extreme" comes from the fact that XP takes certain software development practices and sets them to extreme levels. For example, testing in XP is done multiple times a day. When a change is made, all tests should run again, extreme testing. </p>
    <h3 id="History">› History</h3>
-   <p>In March, 1969 XP was first developed and used by Kent Beck who was brought to work on a project at Daimler Chrysler. He was trying to find better ways to enhance the software development process. His ideas and methodologies were proven to be successful which later became known as "Extreme Programming"</p>
+   <p>In March, 1969 XP was first developed and used by Kent Beck who was brought to work on a project at Daimler Chrysler. He was trying to find better ways to enhance the software development process. His ideas and methodologies were proven to be successful which later became known as "Extreme Programming."</p>
    <p>A <a href="http://c2.com/xp/HistoryOfExtremeProgramming.html"> short history </a> of XP is best summarized  as </p>
 
    <p> <blockquote>"Kent Beck found himself dictating practice on a project for which he had assumed some personal risk. Unsure of which to emphasize more, he chose to "turn all the knobs to ten.""</blockquote></p>
-   <p>In 1999, Kent wrote a book titled "Extreme Programming Explained Embrace Change" in which he explained in detail the XP methodology. The four main dimensions that Kent based his methodology around are communication, simplicity, feedback, and courage.<br />
+   <p>In 1999, Kent wrote a book titled "<em>Extreme Programming Explained Embrace Change</em>" in which he explained in detail the XP methodology. The four main dimensions that Kent based his methodology around are communication, simplicity, feedback, and courage.<br />
    </p>
-   
-   <p>In 2000, another book titled "Extreme Programming Installed" came out that was written by Jeffries, Anderson, and Hendrickson who participated in the Daimler Chrysler's project, C3, which describes the XP methodology and what makes it work in detail. </p>
+   <p>In 2000, another book titled "<em>Extreme Programming Installed</em>" came out that was written by Jeffries, Anderson, and Hendrickson who participated in the Daimler Chrysler's project, C3, which describes the XP methodology and what makes it work in detail. </p>
    <h3 id="Concept">› Concept</h3>
    <p>XP is built upon a number of activities, values, and rules, each is discussed in detail below. </p>
    <h4 id="activities">› XP Activities</h4>
@@ -49,8 +48,8 @@
      <li>
        <h5><strong>Planning</strong>&nbsp;</h5>
      </li>
-   
-   <p>The XP development life cycle starts by meeting with customers and developing "user stories", each user story describes a requirement of the system. These user stories are get prioritized by the customers which leads to developing a <a href="http://www.extremeprogramming.org/rules/commit.html">release plan</a>. Then, the development team distribute these user stories into iterations. Each iteration will consist of user stories that sums up to the "<a href="http://www.extremeprogramming.org/rules/velocity.html">project velocity</a>", which is a mean of measuring how much work is done in each iteration. Work load for the coming iteration gets adjusted according to the most recent project velocity. No detailed requirements is done in this phase since requirements get clearer as we develop the software and get constant feedback from customers.</p> </ul>
+     <p>The XP development life cycle starts by meeting with customers and developing "user stories", each user story describes a requirement of the system. These user stories get prioritized by the customer which leads to developing a <a href="http://www.extremeprogramming.org/rules/commit.html">release plan</a>. Then, the development team distributes these user stories into iterations. Each iteration will consist of user stories that sums up to the "<a href="http://www.extremeprogramming.org/rules/velocity.html">project velocity</a>", which is a mean of measuring how much work is done in each iteration. Work load for the coming iteration gets adjusted according to the most recent project velocity. No detailed requirements is done in this phase since requirements get clearer as we develop the software and get constant feedback from customers.</p>
+   </ul>
    <ul>
      <li>
        <h5><strong>Designing </strong></h5>
@@ -59,17 +58,23 @@
    <p>The designing process in XP should follow the following guidelines and principles: </p>
    <ul style="list-style-type:square"> 
    <li>
-     <p>Always seek <a href="http://www.extremeprogramming.org/rules/simple.html">simplicity</a> in design. Simple design is faster and easier to implement and easier to change. </p> </li>
+     <p>Always seek <a href="http://www.extremeprogramming.org/rules/simple.html">simplicity</a> in design. Simple design is faster, easier to implement, and easier to change. </p>
+   </li>
      <li><p>Use "<a href="http://c2.com/cgi/wiki?SystemMetaphor">system metaphor</a>" when naming system classes, objects, etc. This helps maintain consistency and compatibility across the system. It also facilitates with the overall understanding of the system. </p> </li>
-<li>   <p>Use <a href="http://www.extremeprogramming.org/rules/crccards.html">Class Responsibilities and Collaboration</a> (CRC) cards to allow for more cooperation in the design process. All members can be part of the design process by sharing design ideas on such cards. CRC cards implements the object methodology in design as opposed to the traditional procedural one. </p> </li>
-<li><p>Create what is called "<a href="http://www.extremeprogramming.org/rules/spike.html">spike solutions</a>" , these are simple programs that address complicated problems without worrying about any other aspect of the system. This technique helps reduce the risk of of some technical problems. It also helps with giving better estimates for user's story. </p> </li> </ul>  
+<li>
+  <p>Use <a href="http://www.extremeprogramming.org/rules/crccards.html">Class Responsibilities and Collaboration</a> (CRC) cards to allow for more cooperation in the design process. All members can be part of the design process by sharing design ideas on such cards. CRC cards implement the object methodology in design as opposed to the traditional procedural one. </p>
+</li>
+<li>
+  <p>Create what is called "<a href="http://www.extremeprogramming.org/rules/spike.html">spike solutions,</a>" these are simple programs that address complicated problems without worrying about any other aspect of the system. This technique helps reduce the risk of of some technical problems. It also helps with giving better estimates for user's story. </p>
+</li> 
+</ul>  
    </ul>
    <ul>
      <li>
        <h5><strong>Coding</strong></h5>
      </li>
-   
-   <p>In XP, how much of the system is up and running in the customer’s site defines how much progress has been achieved. Therefore, coding is one of the most important phases in XP as it allows for producing something that the customer can actually use and give feedback on. For that, developers are discouraged to waist their time with documentations and other software artifacts as these will extremely slow the development time and the customers would have to wait a long time before they actually get something. </p> </ul>
+     <p>In XP, how much of the system is up and running in the customer’s site defines how much progress has been achieved. Therefore, coding is one of the most important phases in XP as it allows for producing something that the customer can actually use and give feedback on. For that, developers are discouraged to waist their time with documentations and other software artifacts as these will extremely slow the development time and the customers would have to wait a long time before they actually get something in their  hand. </p>
+   </ul>
    <ul>
      <li>
        <h5><strong>Testing</strong></h5>
@@ -78,8 +83,11 @@
    <p>In XP, testing is an integral part of the development process. Testing is done as the code is being developed. The two main types of testing are</p>
    <ul style="list-style-type:square">
    <li>
-   <p id="Unit testing">Unit testing: In order for a code to be released, it must pass all its unit tests. In, XP <a href="http://www.extremeprogramming.org/rules/unittests.html">unit tests </a>should be automated and developed for each class, function, etc. in the code. Whenever a change is made in the code, all unit tests should be run again using an automated test framework. Developers write these tests with the intern to "break" their code in order to find as much bugs as possible. </p> </li>
-  <li> <p id="Acceptance">Acceptance testing: At each iteration, <a href="http://www.extremeprogramming.org/rules/functionaltests.html">acceptance tests</a> are generated for each of the selected user stories according to the customer specifications. At the end of each iteration, the customer is provided with the results of these tests and decides which tests are failed and which are passed. Acceptance tests insure that the system implements exactly what the customer wants. </p> </li>
+     <p id="Unit testing">Unit testing: In order for a code to be released, it must pass all its unit tests. In, XP <a href="http://www.extremeprogramming.org/rules/unittests.html">unit tests </a>should be automated and developed for each class, function, etc. in the code. Whenever a change is made in the code, all unit tests should run again using some automated test frameworks. Developers write these tests with the intention to "break" their code in order to find as much bugs as possible. </p>
+   </li>
+  <li>
+    <p id="Acceptance">Acceptance testing: At each iteration, <a href="http://www.extremeprogramming.org/rules/functionaltests.html">acceptance tests</a> are generated for each of the selected user stories according to the customer specifications. At the end of each iteration, the customer is provided with the results of these tests and decides which tests are failed and which are passed. Acceptance testing insures that the system implements exactly what the customer wants. </p>
+  </li>
    </ul>
    </ul>
    
@@ -87,8 +95,8 @@
      <li>
        <h5><strong>Listening</strong></h5>
      </li>
-   
-   <p>Getting feedback from customers is a key activity in XP. XP encourages developers to be good listeners for customers. Getting feedback and welcoming changes helps developing a system that best match customer’s specifications. Feedback is not done only between the development team and customers; it is also encouraged between the development team themselves. A developer should give/seek feedback to/from other co-developers. Communication and feedback are highly valued in XP as you will see in the following section. </p> </ul>
+     <p>Getting feedback from customers is a key activity in XP. XP encourages developers to be good listeners for customers. Getting feedback and welcoming changes helps develop a system that best matches customer’s specifications. Feedback is not done only between the development team and customers; it is also encouraged between the development team themselves. A developer should give/seek feedback to/from other co-developers. Communication and feedback are highly valued in XP as you will see in the following section. </p>
+   </ul>
 
    
    
@@ -107,15 +115,14 @@
   <li>
     <h5><strong>Communication </strong></h5>
   </li>
-
-<p>Team members should continuously communicate with each other and with costumers. Face to face communication is a key thing in XP. Everyone is involved in the development process most importantly customers. </p> 
+  <p>Team members should continuously communicate with each other and with costumers. Face to face communication is a key thing in XP. Everyone is involved in the development process, most importantly customers. </p>
   <li>
     <h5><strong>Feedback</strong></h5>
   </li>
 
 <p>In XP you should always get feedback from customers and be ready to change frequently. This is very essential in XP since you deliver a working software to the customer at the end of every iteration. The customers actually use the software and give back feedback that it is extremely helpful for next iterations. </p>
-<p>XP exempts you from waiting until the end of the software development process to see whether or not the customer actually likes your software. In XP this is done starting from the early stages of the software development process. This means that you should expect change and embrace it. In XP change is easy to be done because the whole software is implemented in a way that allow changes to be made with the lowest cost possible. &nbsp; </p> 
-  <li>
+<p>XP exempts you from waiting until the end of the software development process to see whether or not the customer actually likes the software. In XP this is done starting from the early stages of the software development process. This means that you should expect change and embrace it. In XP change is easy to be done because the whole software is implemented in a way that allow changes to be made with the lowest cost possible. &nbsp; </p>
+<li>
     <h5><strong>Courage </strong></h5>
   </li>
 
@@ -126,8 +133,8 @@
   <li>
     <h5><strong>Respect </strong></h5>
   </li>
-
-<p>Respect is highly appreciated in XP. It should be practiced by every member of the team including customers and managers. No one should feel disrespected or discouraged. Respect helps keep the spirit of the team up and thus increasing their performance. </p> </ul>
+  <p>Respect is highly appreciated in XP. It should be practiced by every member of the team including customers and managers. No one should feel disrespected or discouraged. Respect helps keep the spirit of the team up, and thus increasing their performance. </p>
+</ul>
 
 
 
@@ -146,9 +153,9 @@
       <p>The customer specifies system functionalities which will be converted into brief "user stories" and will be written on an <a href="http://c2.com/cgi/wiki?IndexCard">index card</a>. What makes XP great is that stories can be added at any time during the development life cycle. </p>
     </li>
       <li>
-        <p>The development team gives general estimates on how long each story will take to develop. This estimate is usually given in terms of weeks, 1,2, or 3 weeks. If a story will take more than 3 weeks, the customer splits the story into two simpler stories. If a story will take less than a week, then the customer merges it with another story. </p>
+        <p>The development team gives general estimates on how long each story will take to develop. These estimates are usually given in terms of weeks, 1,2, or 3 weeks. If a story is estimated to take more than 3 weeks, the customer splits the story into two simpler stories. If a story is estimated to take less than a week, then the customer merges it with another story. </p>
       <li>
-        <p>The customer prioritizes user stories according to their importance. Then, the customer and the development team decides on which stories will be implemented in the next iteration, specifying "<a href="http://www.extremeprogramming.org/rules/velocity.html">project velocity</a>."</p>
+        <p>The customer prioritizes user stories according to their importance. Then, the customer and the development team decides which stories to be implemented in the next iteration, specifying "<a href="http://www.extremeprogramming.org/rules/velocity.html">project velocity</a>."</p>
       </li>
       </li>
     
@@ -167,20 +174,20 @@
   </li>
   <li>
     <h5>Pair Programming </h5>
-    <p>One each work station, two developers work on the same code but each performing a different task. Although pair programming might slightly slow developers down, a <a href="http://www.economist.com/node/779429">study</a> showed that it produces a higher quality code. </p>
+    <p>On each work station, two developers work on the same code but each perform a different task. Although pair programming might slightly slow developers down, a <a href="http://www.economist.com/node/779429">study</a> showes that it produces a higher quality code. </p>
     <p> <blockquote>"Laurie Williams of the University of Utah in Salt Lake City has shown that paired programmers are only 15% slower than two independent individual programmers, but produce 15% fewer bugs. Since testing and debugging are often many times more costly than initial programming, this is an impressive result." </blockquote></p>
   </li>
   <li>
     <h5>Collective Code Ownership </h5>
-    <p>Code belongs to all developers, every one can modify, refactor, and add to code. By applying coding standard, collective code ownership becomes easier. Collective code ownership significantly reduces the risk of team turnover because all developers contribute in somehow to each part of the system. </p>
+    <p>Code belongs to all developers, every one can modify, refactor, and add to code. By applying coding standards, collective code ownership becomes easier. Collective code ownership significantly reduces the risk of team turnover because all developers contribute in somehow to each part of the system. </p>
   </li>
   <li>
     <h5>Testing</h5>
-    <p>As mentioned earlier, there are two main categories of testing in XP, <a href="#Unit testing">unit testing</a> and <a href="#Acceptance">acceptance testing</a>. When a new feature is to be added to the system, you should write a unit test for it first, then write a code that passes that test. This methodology of testing is called <a href="http://c2.com/cgi/wiki?TestDrivenDevelopment">Test-Driven Development.</a> Writing tests first makes writing code easier because that way you know exactly what you need to do, write a code that passes the tests. Also, when you write tests first, you always know when you have done coding all functionalities, when all tests are passed. </p>
+    <p>As mentioned earlier, there are two main categories of testing in XP, <a href="#Unit testing">unit testing</a> and <a href="#Acceptance">acceptance testing</a>. When a new feature is to be added to the system, you should write a unit test for it first, then you write a code that passes that test. This methodology of testing is called <a href="http://c2.com/cgi/wiki?TestDrivenDevelopment">Test-Driven Development.</a> Writing tests first makes writing code easier because that way you know exactly what you need to do, i.e. write a code that passes the tests. Also, when you write tests first, you always know when you have done coding all functionalities, when all tests are passed. </p>
   </li>
   <li>
     <h5>Continuous Integration </h5>
-    <p>Whenever a software build is ready to be released, it needs to be integrated to the current system so that everyone works on the latest version of the system. This integration is done multiple times a day, current practices reduced this requirement to be once a week. Continuous integration has the advantage of discovering integration problems  early which leads to easier and less cost fix. </p>
+    <p>Whenever a software build is ready to be released, it needs to be integrated to the current system so that everyone works on the latest version of the system. This integration is done multiple times a day, current practices reduced this requirement to be once a week. Continuous integration has the advantage of discovering integration problems  early, which leads to easier and less fix cost. </p>
   </li>
   <li>
     <h5>Simple Design </h5>
@@ -189,27 +196,28 @@
       <p>Choose the simplest design that works. </p>
     </li>
   <li>
-    <p>Do not design the same functionality twice, reuse your designs.</p></li>
+    <p>Do not design the same functionality twice, reuse your design.</p>
+  </li>
   <li>  <p>Do not waist your time designing functionalities that you do not need or ones that are scheduled for future iterations. </p>
    </li></ul>
-    <p>As a rule, the simpler the design, the better the system, the more it becomes tolerant to change. </p>
+    <p>As a rule, the simpler the design, the better the system, and the more it becomes tolerant to change. </p>
   </li>
   <li>
     <h5>Refactoring </h5>
-    <p>Refactoring code simply means improving it. This improvement can be done by removing duplicate code, or removing unused functionalities, or redesigning the code to make it simpler. All team members are encouraged to refactor their own code as well as code written by other co-developers, collective ownership. Refactoring keeps the system simple, concise and hence easy to understand and modify. The testing mechanism in XP makes refactoring done without the overhead of worrying about breaking the code. This is because after making a change, you will always have to run all tests again and know if something is not working right and fix it. &nbsp; </p>
+    <p>Refactoring code simply means improving it. This improvement can be done by removing duplicate code, removing unused functionalities, or redesigning the code to make it simpler. All team members are encouraged to refactor their own code as well as code written by other co-developers, collective ownership. Refactoring keeps the system simple, concise and hence easy to understand and modify. The testing mechanism in XP makes refactoring done without the overhead of worrying about breaking the code. This is because after making any change, you will always have to run all tests again and know if something is not working and fix it. &nbsp; </p>
   </li>
   <li>
     <h5>40-Hour Workweek </h5>
     <p>In XP, there are two main types of planning:</p>
     <p>Release planning: Release planning results in creating a release plan which defines the overall scope and schedule for the project. </p>
     <p>Iteration planning: Iteration planning is done at the beginning of each iteration which defines what stories "features" of the system should be implemented during each iteration. </p>
-    <p>The good thing about XP, and agile methods in general, is that it is okay to be wrong in your original estimates. The plans mentioned above are not fixed, they can and should be adjusted according to the follow of work. Therefore, developers should never work overtime. Working overtime leads to developers being exhausted and writing code with more bugs and less quality. In XP, when things are not going as planned, call for an iteration planning meeting and modify the <a href="http://www.extremeprogramming.org/rules/velocity.html">project velocity</a> so that developers can focus now on fewer things and get things done by the end of the iteration. If it takes, call for a release planning meeting and change the whole scope of the project or extend the project timing. No matter what happens, in XP you can never break the rule of "40-hour work week."</p>
+    <p>The good thing about XP, and agile methods in general, is that it is okay to be wrong in your original estimates. The plans mentioned above are not fixed, they can and should be adjusted according to the follow of work. Therefore, developers should never work overtime. Working overtime leads to developers being exhausted which in turns leads to writing code with more bugs and less quality. In XP, when things are not going as planned, call for an iteration planning meeting and modify the <a href="http://www.extremeprogramming.org/rules/velocity.html">project velocity</a> so that developers can focus now on fewer things and get things done by the end of the iteration. If it takes, call for a release planning meeting and change the whole scope of the project or extend the project timing. No matter what happens, in XP you can never break the rule of "40-hour work week."</p>
   </li>
   <li>
     <h5>On-Site Customer </h5>
-    <p>In XP, the customer is an essential part of the development team. One of the XP's core values is face-to-face communication, therefore, the customer needs to be available on-site to communicate with the development team and and answer questions. Recall that user stories are brief abstract statements that describes system's functionalities. Therefore, the development team may need to talk to the customer and get more details on a user story to make sue that they understand it fully. Also, the customer should be present during meetings to negotiate and help in making decisions.<br />
+    <p>In XP, the customer is an essential part of the development team. One of the XP's core values is face-to-face communication, therefore, the customer needs to be available on-site to communicate with the development team and and to answer questions. Recall that user stories are brief abstract statements that describes system's functionalities. Therefore, the development team may need to talk to the customer and get more details on a user story to make sue that they understand it fully. Also, the customer should be present during meetings to negotiate and help in making decisions.<br />
     </p>
-</li>
+  </li>
 </ul>
 <h3 id="Pros &amp; Cons">› Pros &amp; Cons</h3>
 <p>Like any other software development life cycle, XP has its ups and downs. Whether you should use XP or not depends on a number of factors such as the type of project being developed, and the size of the development team. The following lists of Advantages and disadvantages of XP helps you make that choice. <br />
@@ -219,18 +227,17 @@
   <h5>Advantages of XP </h5>
    <ul style="list-style-type:square"> 
    <li>
-     <p>XP embraces change and design for it. Therefore,requirements need not to be specified in advance, which gives a great flexibility to customers who do not know exactly what they need. </p>
-     
+     <p>XP embraces change and designs for it. Therefore, requirements need not to be specified in advance, which gives a great flexibility to customers who do not know exactly what they want. </p>
    </li>
     
     <li>
-      <p>XP lowers the risk of building new challenging projects that have high risks, and increases its success rate. </p>
+      <p>XP lowers the risk of building new challenging projects that have high risks, and increases their success rate. </p>
     </li>
     <li>
       <p>Since XP is all about communication, it works best when you have a small development team, typically between 2 and 12 members. </p>
     </li>
     <li>
-      <p>Involving the customer is extremely helpful and making sure that software being developed matches what the customer really wants. </p>
+      <p>Involving the customer is extremely helpful and leads to creating a software that matches what the customer really wants. </p>
     </li>
     
     <li>
@@ -263,10 +270,10 @@
      <p>Pair programming is not an easy thing to do. Some programmers prefer to code alone and find that pair programming slows them down. </p>
    </li>
    <li>
-     <p>Quality in XP does not get measured which is a a problem for large projects because managers believe that keeping track of quality helps to produce a high quality software. </p>
+     <p>Quality in XP does not get measured which is a problem for large projects because managers believe that keeping track of quality helps to produce a high quality software. </p>
    </li>
    <li>
-     <p>Some believes that some XP practices waist a lot of time without getting a significant gain such as refactoring. </p>
+     <p>Some believe that some XP practices waist a lot of time without getting a significant gain such as refactoring. </p>
    </li>
    <li>
      <p>XP requires the development team to be co-located and work at an open space work area which might not be comfortable for some developers.</p>
@@ -279,7 +286,7 @@
 <ul>
 
 <li>
-  <p>A small project probably with high risk.</p>
+  <p>A small project, probably with high risk.</p>
 </li>
 <li>
   <p>Changing requirements.</p>
@@ -347,7 +354,7 @@
   </p>
 </li>
 <li>
-  <p>Beck, B. (2000). <em>Extreme Programming Explained.</em> Addison-Wesley. <br />
+  <p>Beck, K. (2000). <em>Extreme Programming Explained.</em> Addison-Wesley. <br />
   </p>
 </li>
 
